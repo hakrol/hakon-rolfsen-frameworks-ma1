@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  padding-top: 100%;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  font-size: 0.8em;
+  color: #707070;
+  padding: 0.5em;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
